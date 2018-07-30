@@ -1,0 +1,14 @@
+{
+    "name": "icons",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/Icon.css",
+    "scripts": {},
+    "style": "src/Icon.css",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:JulioYu/icons.git"
+    },
+    "author": "Test",
+    "license": "ISC"
+}

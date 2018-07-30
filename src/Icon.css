@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('./font/fontello.woff2') format('woff2'),
+         url('./font/fontello.woff') format('woff'),
+         url('./font/fontello.ttf') format('truetype'),
+         url('./font/fontello.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"] {
+    line-height: 1em;
+}
+[class^="icon-"]::before {
+    display: inline-block;
+    width: 23px;
+    text-align: center;
+    vertical-align: baseline;
+    font: normal normal normal 14px/1em fontello;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check-ok::before { content: '\e800'; }
+.icon-calendar::before { content: '\e801'; }
+.icon-mail::before { content: '\e802'; }
+.icon-guide::before { content: '\e803'; }
+.icon-setting::before { content: '\e804'; }
+.icon-plus::before { content: '\e805'; }
+.icon-tags::before { content: '\e806'; }
+.icon-upload::before { content: '\e807'; }
+.icon-download::before { content: '\e808'; }
+.icon-target::before { content: '\e809'; }
+.icon-phone::before { content: '\e80a'; }
+.icon-cancel::before { content: '\e80b'; }
+.icon-minus::before { content: '\e80c'; }
+.icon-refresh::before { content: '\e80d'; }
+.icon-eye::before { content: '\e80e'; }
+.icon-download-1::before { content: '\e80f'; }
+.icon-search::before { content: '\e810'; }
+.icon-cancel-circled::before { content: '\e811'; }
+.icon-filter::before { content: '\e812'; }
+.icon-report-lock::before { content: '\e813'; }
+.icon-th::before { content: '\e814'; }
+.icon-menu::before { content: '\e815'; }
+.icon-left-dir::before { content: '\e816'; }
+.icon-right-dir::before { content: '\e817'; }
+.icon-ok-circled::before { content: '\e818'; }
+.icon-cancel-circled-1::before { content: '\e819'; }
+.icon-dot-3::before { content: '\e81a'; }
+.icon-cell::before { content: '\e81b'; }
+.icon-draw::before { content: '\e81c'; }
+.icon-report-all::before { content: '\e81d'; }
+.icon-multimap::before { content: '\e81e'; }
+.icon-mapsource::before { content: '\e81f'; }
+.icon-trash::before { content: '\e820'; }
+.icon-report::before { content: '\e821'; }
+.icon-layers::before { content: '\e822'; }
+.icon-report-unlock::before { content: '\e823'; }
+.icon-polygon::before { content: '\e824'; }
+.icon-searchfly::before { content: '\e825'; }
+.icon-floppy-save-as::before { content: '\e826'; }
+.icon-floppy::before { content: '\e827'; }
+.icon-expand::before { content: '\e828'; }
+.icon-export::before { content: '\e829'; }
+.icon-import::before { content: '\e82a'; }
+.icon-flow-line::before { content: '\e82b'; }
+.icon-more::before { content: '\e82c'; }
+.icon-shrink::before { content: '\e82d'; }
+.icon-legend::before { content: '\e82e'; }
+.icon-warning-empty::before { content: '\e82f'; }
+.icon-ok-circled2::before { content: '\e830'; }
+.icon-user::before { content: '\e831'; }
+.icon-code::before { content: '\e832'; }
+.icon-plus-circled::before { content: '\e833'; }
+.icon-minus-circled::before { content: '\e834'; }
+.icon-option::before { content: '\e83d'; }
+.icon-folder-open::before { content: '\f068'; }
+.icon-info-circled-alt::before { content: '\f086'; }
+.icon-gauge::before { content: '\f0e4'; }
+.icon-angle-double-up::before { content: '\f102'; }
+.icon-angle-left::before { content: '\f104'; }
+.icon-angle-right::before { content: '\f105'; }
+.icon-angle-down::before { content: '\f107'; }
+.icon-reply::before { content: '\f112'; }
+.icon-direction::before { content: '\f124'; }
+.icon-ellipsis-vert::before { content: '\f142'; }
+.icon-down::before { content: '\f175'; }
+.icon-up::before { content: '\f176'; }
+.icon-circle-thin::before { content: '\f1db'; }
+.icon-group::before { content: '\f247'; }
+.icon-window-maximize::before { content: '\f2d0'; }
+.icon-window-restore::before { content: '\f2d2'; }
